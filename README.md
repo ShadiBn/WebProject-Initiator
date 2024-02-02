@@ -5,7 +5,7 @@ A Python script (converted to EXE) for quickly initializing new projects using n
 
 Make sure you have the following installed on your machine:
 
-- [npm](https://www.npmjs.com/get-npm)
+- [NodeJs](https://nodejs.org/en)
 - [VsCode](https://code.visualstudio.com/)
 
 ## Getting Started
