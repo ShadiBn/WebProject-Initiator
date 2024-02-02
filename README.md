@@ -18,7 +18,9 @@ Follow these steps to use the script:
 3. **Run EXE:** Double-click on `WebProject-Initiotor.exe` to execute the script.
 4. **Follow Prompts:** Follow the on-screen prompts to select the desired project template.
 
-## Important Note
+## Important Notes
+
+The application creates folders based on its current location. For a consistent folder creation within your workspace, please copy and paste the .exe file into your desired workspace directory. This ensures that the application consistently generates folders in the intended location.
 
 This script utilizes Python's OS and Subprocesses, which might trigger antivirus warnings. If you encounter this situation, consider the following options:
 
