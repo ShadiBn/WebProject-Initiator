@@ -13,10 +13,11 @@ Ensure that you have the following software installed on your machine:
 
 Follow these steps to use the script:
 
-1. **Download:** Visit the [Releases](https://github.com/ShadiBn/WebProject-Initiotor/releases) page.
-2. **Download EXE:** Choose the latest release and download the `WebProject-Initiotor.exe` file.
-3. **Run EXE:** Double-click on `WebProject-Initiotor.exe` to execute the script.
-4. **Follow Prompts:** Follow the on-screen prompts to select the desired project template.
+1. **Download the Executable:** Visit the [Releases](https://github.com/your-username/Create-Vite-Project/releases) page and download the zip file from the latest release.
+2.  **Unzip and open the folder:** You can use [winrar](https://www.win-rar.com) or [7zip](https://www.7-zip.org/) to help you with that
+3. **Run the Script:** Double-click on .exe to launch the tool.
+4. **Select Project Template:** Follow the on-screen prompts to choose the desired project template.
+5. **Project Initialization:** The tool will initialize the project based on the selected template.
 
 ## Important Notes
 
@@ -42,7 +43,7 @@ This script utilizes Python's OS and Subprocesses, which might trigger antivirus
 6. **Find your app:** You will find your EXE app in the `dist` folder.
 7. **Have Fun Coding!**
 
-### Project Templates
+## Project Templates
 
 - **Default Init:** Create a simple project with HTML, CSS, and JavaScript files.
 - **Vanilla:** Create a project with a vanilla JavaScript template.
