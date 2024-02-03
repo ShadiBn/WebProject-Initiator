@@ -45,7 +45,7 @@ This script utilizes Python's OS and Subprocesses, which might trigger antivirus
 
 ## Project Templates
 
-- **Default Init:** Create a simple project with HTML, CSS, and JavaScript files.
+- **Default Init:** Create a simple project with HTML, CSS with a [Css Reset](https://github.com/ShadiBn/My-Css-Reset), and JavaScript files.
 - **Vanilla:** Create a project with a vanilla JavaScript template.
 - **Vanilla - TypeScript:** Create a project with a vanilla TypeScript template.
 - **React:** Initialize a React project.
