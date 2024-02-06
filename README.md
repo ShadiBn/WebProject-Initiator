@@ -16,8 +16,10 @@ Follow these steps to use the script:
 1. **Download the Executable:** Visit the [Releases](https://github.com/your-username/Create-Vite-Project/releases) page and download the zip file from the latest release.
 2.  **Unzip and open the folder:** You can use [winrar](https://www.win-rar.com) or [7zip](https://www.7-zip.org/) to help you with that
 3. **Run the Script:** Double-click on .exe to launch the tool.
-4. **Select Project Template:** Follow the on-screen prompts to choose the desired project template.
-5. **Project Initialization:** The tool will initialize the project based on the selected template.
+4. **Select Name for your project**
+5. **Select location**
+6. **Select Project Template number:** Follow the on-screen prompts to choose the desired project template.
+7. **Project Initialization:** The tool will initialize the project based on the selected template and open the newly created folder in VS code workplace.
 
 ## Important Notes
 
