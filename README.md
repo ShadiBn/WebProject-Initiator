@@ -13,7 +13,7 @@ Ensure that you have the following software installed on your machine:
 
 Follow these steps to use the script:
 
-1. **Download the Executable:** Visit the [Releases](https://github.com/ShadiBn/WebProject-Initiator/releases) page and download the zip file from the latest release.
+1. **Download the Asset folder:** Visit the [Releases](https://github.com/ShadiBn/WebProject-Initiator/releases) page and download the zip file from the latest release.
 2.  **Unzip and open the folder:** You can use [winrar](https://www.win-rar.com) or [7zip](https://www.7-zip.org/) to help you with that
 3. **Run the Script:** Double-click on .exe to launch the tool.
 4. **Select Name for your project**
