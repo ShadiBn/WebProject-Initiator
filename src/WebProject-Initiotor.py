@@ -32,8 +32,16 @@ def create_project(template):
 
 # Get project information
 file_name = input('Enter Project Name: ').lower()
-new_folder_location = os.path.join(filedialog.askdirectory(), file_name)
-print(new_folder_location)
+dir_location = filedialog.askdirectory()
+
+if dir_location:
+    print(f"Dir location: {dir_location}")
+    new_folder_location = os.path.join(dir_location, file_name)
+
+else:
+    dir_location= os.getcwd()
+    print(f"Dir default location: {dir_location}")
+    new_folder_location = os.path.join(dir_location, file_name)
 
 # Display project options
 options = """Options: 
@@ -46,6 +54,7 @@ options = """Options:
 7- Preact TypeScript
 8- Vue
 9- Vue TypeScript
+q- quit
 """
 print(options)
 
@@ -60,7 +69,7 @@ while True:
   
         if not os.path.exists(new_folder_location):
             os.mkdir(new_folder_location)
-            print(f'Folder "{new_folder_location}" created successfully.')
+            print(f'Folder {new_folder_location} created successfully.')
         else:
             print(f'Folder "{new_folder_location}" already exists.')
   
@@ -84,6 +93,7 @@ while True:
         break
   
     elif selected_input.isdigit() and 1 <= int(selected_input) <= 9:
+        os.chdir(dir_location)
         # Select project template
         templates = [
             "vanilla",
@@ -98,6 +108,9 @@ while True:
         template = templates[int(selected_input) - 2]
         create_project(template)
         break
+
+    elif selected_input.strip().lower() == "q":
+        exit()
 
     else:
         print("Invalid option. Please select a valid option.")

@@ -1,5 +1,4 @@
-('C:\\Users\\shadi\\Desktop\\Python VS '
- 'script\\build\\WebProject-Initiotor\\PYZ-00.pyz',
+('C:\\Users\\shadi\\Desktop\\Repos\\WebProject-Initiotor\\build\\WebProject-Initiotor\\PYZ-00.pyz',
  [('_compat_pickle',
    'C:\\Users\\shadi\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\_compat_pickle.py',
    'PYMODULE'),
