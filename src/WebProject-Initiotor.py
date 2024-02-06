@@ -1,6 +1,6 @@
 import os
 import subprocess
-import json
+from tkinter import filedialog
 
 def create_project(template):
     """
@@ -32,7 +32,7 @@ def create_project(template):
 
 # Get project information
 file_name = input('Enter Project Name: ').lower()
-new_folder_location = os.path.join(os.getcwd(), file_name)
+new_folder_location = os.path.join(filedialog.askdirectory(), file_name)
 print(new_folder_location)
 
 # Display project options
