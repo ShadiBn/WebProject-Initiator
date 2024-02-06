@@ -13,7 +13,7 @@ Ensure that you have the following software installed on your machine:
 
 Follow these steps to use the script:
 
-1. **Download the Executable:** Visit the [Releases](https://github.com/ShadiBn/WebProject-Initiotor/releases) page and download the zip file from the latest release.
+1. **Download the Executable:** Visit the [Releases](https://github.com/ShadiBn/WebProject-Initiator/releases) page and download the zip file from the latest release.
 2.  **Unzip and open the folder:** You can use [winrar](https://www.win-rar.com) or [7zip](https://www.7-zip.org/) to help you with that
 3. **Run the Script:** Double-click on .exe to launch the tool.
 4. **Select Name for your project**
@@ -31,7 +31,7 @@ This script utilizes Python's OS and Subprocesses, which might trigger antivirus
 
 ### Option 2 - Build the Source File to an EXE Application
 
-1. **Download the source file:** Navigate to [src/WebProject-Initiotor.py](https://github.com/ShadiBn/WebProject-Initiotor/blob/main/src/WebProject-Initiotor.py) and download or copy the file.
+1. **Download the source file:** Navigate to [src/WebProject-Initiator.py](https://github.com/ShadiBn/WebProject-Initiator/blob/main/src/WebProject-Initiator.py) and download or copy the file.
 2. **Install Python on your computer:** Visit [Python.org](https://www.python.org/downloads/) to download and install Python.
 3. **Install PyInstaller:** Open your terminal and type the following:
    ```bash
@@ -40,7 +40,7 @@ This script utilizes Python's OS and Subprocesses, which might trigger antivirus
 4. **Open terminal in the folder containing the Python source folder:** It's recommended to create a new folder and copy the Python source code downloaded earlier.
 5. **Build Your App:** Type the following command in the correct PATH to build the EXE app:
    ```bash
-   pyinstaller --onefile Path/To/Folder/WebProject-Initiotor.py
+   pyinstaller --onefile Path/To/Folder/WebProject-Initiator.py
    ```
 6. **Find your app:** You will find your EXE app in the `dist` folder.
 7. **Have Fun Coding!**
@@ -57,7 +57,7 @@ This script utilizes Python's OS and Subprocesses, which might trigger antivirus
 
 ## Feedback and Contributions
 
-Feel free to provide feedback, report issues, or contribute to the project by opening [issues](https://github.com/ShadiBn/WebProject-Initiotor/issues) or submitting [pull requests](https://github.com/ShadiBn/WebProject-Initiotor/pulls).
+Feel free to provide feedback, report issues, or contribute to the project by opening [issues](https://github.com/ShadiBn/WebProject-Initiator/issues) or submitting [pull requests](https://github.com/ShadiBn/WebProject-Initiator/pulls).
 
 ## License
 
